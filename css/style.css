@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	display: relative;
+}
+body{
+	font-family: tahoma;
+}
+p{
+	line-height: 25px;
+}
+header{
+	padding: 30px;
+}
+.container{
+ 	width:1200px;
+ 	margin: auto;
+ 	overflow: hidden;
+}
+.logo{
+   width:20%;
+   float:left;
+   
+}
+.logo a{
+
+}
+.logo a img{
+	max-width: 100%;
+}
+nav{
+ 	width:80%;
+ 	float: left;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 0 40px;
+	font-size: 20px;
+	color:#00000099;
+}
+nav ul li a:hover{
+	background-color: #000;
+	color:#fff;
+	border-radius: 30px;
+	transition-duration: 0.3s;
+}
+.banner-section{
+
+}
+.banner-section img{
+	width: 100%;
+}
+.content-section{
+	padding: 60px 0;
+}
+.container-1{
+	width: 1000px;
+    margin: auto;
+}
+.content{
+
+}
+.content a{
+	text-decoration: none;
+    color: #00000057;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.content h2{
+	padding: 25px 0;
+	color:#000000ab;
+}
+.content p{
+	padding-bottom: 25px;
+}
+.column-section{
+	padding: 40px 0;
+}
+.flex{
+ 	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column-1-2{
+ 	width: 45%;
+ 	flex-basis:45%;
+ 	display:block; 
+}
+.column-1-2 img{
+	width: 100%;
+	display: block;
+	padding-bottom: 30px;
+}
+.column-1-2 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #00000057;
+
+}
+.column-1-2 h2{
+	padding: 30px 0;
+	color:#00000091;
+}
+.column-1-2 p{
+	font-size: 22px;
+	color:#000000ad;
+}
+footer{
+	background-color: #2c3e50;
+	padding: 25px 0;
+}
+.container-2{
+    width:1200px;
+    margin: auto;
+
+}
+.copyright{
+
+}
+.copyright ul{
+   display: flex;
+}
+.copyright ul li{
+	list-style: none;
+}
+.copyright ul li a{
+	text-decoration: none;
+	padding: 0 15px;
+	color:#ecf0f1;
+}
+.copyright ul li a:hover{
+	color:#27ae60;
+}
+.social-icon{
+
+}
+.social-icon ul{
+	display: flex;
+}
+.social-icon ul li{
+	list-style: none;
+}
+.social-icon ul li a{
+	text-decoration: none;
+	padding: 0 15px;
+	color:#ecf0f1;
+}
+.social-icon ul li a:hover{
+	color:#27ae60;
+}
+.btn{
+    background-color: #fff;
+    padding: 20px 0;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: -1px 2px 9px 1px;
+}
+.btn h3{
+	color:#000000c2;
+}
